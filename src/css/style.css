@@ -124,3 +124,22 @@ nav {
     border: none;
     border-radius: 4px;
 }
+.reason {
+
+}
+.reason .reason_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reason .reason_circle {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: #1EACC7;
+}
+.reason .reason_circle .reason_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
