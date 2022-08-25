@@ -256,3 +256,29 @@ nav {
   border-radius: 100%;
   cursor: pointer;
 }
+
+.choice {
+  min-height: 898px;
+}
+.choice .choice_label {
+  background: #FFFFFF;
+  color: #000000;
+}
+.choice .choice_title {
+  color: #FFFFFF;
+}
+.choice .choice_subtitle {
+  color: #FFFFFF;
+}
+.choice .choice_background_top {
+  height: 502px;
+  background: #070716;
+}
+.choice .choice_background_bottom {
+  height: 397px;
+  background: url('img/подложка.jpg');
+}
+.choice .choice_background_bottom .choice_background_img {
+  width: 759px;
+  height: 480px;
+}
