@@ -183,3 +183,49 @@ nav {
     line-height: 21px;
     color: #202020;
 }
+.choice {
+    min-height: 898px;
+}
+
+.black {}
+
+.choice .label_white {
+    width: 113px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.title .title_white {
+    
+}
+
+.choice .choice_subtitle {
+    color: #FFFFFF;
+}
+
+.choice .choice_background_top {
+    height: 502px;
+    background: #070716;
+}
+
+.choice .choice_background_bottom {
+    height: 397px;
+    background: url('img/подложка.jpg');
+    margin: 200px auto;
+}
+
+.choice .choice_img {
+    display: block;
+    justify-content: center;
+    width: 759px;
+    height: 480px;
+    margin: 250px auto;
+}
