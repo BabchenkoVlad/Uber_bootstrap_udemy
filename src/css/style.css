@@ -260,12 +260,21 @@ nav {
 .choice {
   min-height: 898px;
 }
-.choice .choice_label {
+.black {
+  
+}
+.choice .label_white {
+  width: 113px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-transform: uppercase;
   background: #FFFFFF;
   color: #000000;
-}
-.choice .choice_title {
-  color: #FFFFFF;
 }
 .choice .choice_subtitle {
   color: #FFFFFF;
@@ -277,8 +286,12 @@ nav {
 .choice .choice_background_bottom {
   height: 397px;
   background: url('img/подложка.jpg');
+  margin: 200px auto;
 }
-.choice .choice_background_bottom .choice_background_img {
+.choice .choice_img {
+  display: block;
+  justify-content: center;
   width: 759px;
   height: 480px;
+  margin: 250px auto;
 }
