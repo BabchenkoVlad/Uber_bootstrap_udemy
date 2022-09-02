@@ -4,6 +4,10 @@
       padding-right: 20px
     &_link
       font-size: 13px
+  .subheader
+    &_logo
+      img
+        width: 75%
   .promo
     &_header
       font-size: 50px
@@ -72,11 +76,23 @@
     right: 10px
     top: 50%
     transform: translateY(-50%)
-    width: 20px
+    width: 26px
+    height: 12px
     span
       display: block
       height: 2px
       width: 100%
       background-color: #fff
       margin-bottom: 2px
-      
+      transition: 0.5s all
+    &_active
+      span
+        margin-bottom: -2px
+        &:nth_child(1)
+          transform: translateY(3px) rotate(-45deg)
+        &:nth_child(2)
+          display: none
+        &:nth_child(3)
+          transform: translateY(3px) rotate(45deg)
+
+
